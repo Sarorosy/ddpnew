@@ -1,313 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="./css/main.css?v=2" rel="stylesheet">
 </head>
+
 <body>
     <div class="main-grid-wrapper">
         <!-- Layout Header Begin -->
         <header class="header-wg">
-         header
+            header
         </header>
-    <div class="content-wg">
-    <div class="fluid">
-        <canvas class="fluid-canvas" style="opacity:0; width: 100vw; height: 100vh;"></canvas>
-    </div>
-    <div id="fullpage" style="opacity:0;">
-    <section class="section page slide1">
-        <canvas id="liquid"></canvas>
-        <div class="top">
-            <a class="logo" href="#"><img src="./images/layout/logo.svg" alt="logo"></a>
-        </div>
-        <div class="bottom">
-            <div class="nav-slides">
-                <span class="active"><i>01</i></span>
-                <span><i>02</i></span>
+        <div class="content-wg">
+            <div class="fluid">
+                <canvas class="fluid-canvas" style="opacity:0; width: 100vw; height: 100vh;"></canvas>
             </div>
-            <span class="l"></span>
-            <span class="r"></span>
-            <div class="text">
-                <span>Delivering the</span>
-                <span>Digital Knockout</span>
-                <span>for future</span>
-            </div>
-        </div>
-        <span class="arr">
-            <img src="./images/layout/arr.svg" alt="logo">
-        </span>
-    </section>
-
-    <section class="section page fp-auto-height fp-auto-height-responsive slide2">
-        <div class="top">
-            <div class="wrapper-main">
-                <div class="row">
-                    <div class="text">
-                        AX1 is an Angel <br/>
-                        syndicate
+            <div id="fullpage" style="opacity:0;">
+                <section class="section page slide1">
+                    <canvas id="liquid"></canvas>
+                    <div class="top">
+                        <a class="logo" href="#"><img src="./images/layout/ddplogo.png" alt="logo"></a>
                     </div>
-                    <div class="nav-slides">
-                        <span><i>01</i></span>
-                        <span class="active"><i>02</i></span>
-                    </div>
-                </div>
-                <div class="block">
-                    <div class="item" style="visibility: hidden;">
-                        <i></i>
-                        <picture>
-                            <source media="(min-width: 768px)" srcset="./images/figures/1@2x.png 2x, ./images/figures/1.png 1x">
-                            <source media="(max-width: 767px)" srcset="./images/figures/1_@2x.png 2x, ./images/figures/1_.png 1x">
-                            <img src="./images/figures/1.png" alt="img" width="440" height="440">
-                        </picture>
-                    </div>
-                    <div class="item">
-                        <i>Network</i>
-                        <picture>
-                            <source media="(min-width: 768px)" srcset="./images/figures/1@2x.png 2x, ./images/figures/1.png 1x">
-                            <source media="(max-width: 767px)" srcset="./images/figures/1_@2x.png 2x, ./images/figures/1_.png 1x">
-                            <img src="./images/figures/1.png" alt="img" width="440" height="440">
-                        </picture>
-                    </div>
-                    <div class="item">
-                        <i>Industry Insight</i>
-                        <picture>
-                            <source media="(min-width: 768px)" srcset="./images/figures/2@2x.png 2x, ./images/figures/2.png 1x">
-                            <source media="(max-width: 767px)" srcset="./images/figures/2_@2x.png 2x, ./images/figures/2_.png 1x">
-                            <img src="./images/figures/2.png" alt="img" width="440" height="440">
-                        </picture>
-                    </div>
-                    <div class="item">
-                        <i>AMA session</i>
-                        <picture>
-                            <source media="(min-width: 768px)" srcset="./images/figures/3@2x.png 2x, ./images/figures/3.png 1x">
-                            <source media="(max-width: 767px)" srcset="./images/figures/3_@2x.png 2x, ./images/figures/3_.png 1x">
-                            <img src="./images/figures/3.png" alt="img" width="463" height="440">
-                        </picture>
-                    </div>
-                    <div class="item">
-                        <i>Community</i>
-                        <picture>
-                            <source media="(min-width: 768px)" srcset="./images/figures/4@2x.png 2x, ./images/figures/4.png 1x">
-                            <source media="(max-width: 767px)" srcset="./images/figures/4_@2x.png 2x, ./images/figures/4_.png 1x">
-                            <img src="./images/figures/4.png" alt="img" width="440" height="440">
-                        </picture>
-                    </div>
-
-                    <div class="item">
-                        <i>Education</i>
-                        <picture>
-                            <source media="(min-width: 768px)" srcset="./images/figures/5@2x.png 2x, ./images/figures/5.png 1x">
-                            <source media="(max-width: 767px)" srcset="./images/figures/5_@2x.png 2x, ./images/figures/5_.png 1x">
-                            <img src="./images/figures/5.png" alt="img" width="541" height="444">
-                        </picture>
-                    </div>
-                    <div class="item" style="visibility: hidden;">
-                        <i></i>
-                        <picture>
-                            <source media="(min-width: 768px)" srcset="./images/figures/1@2x.png 2x, ./images/figures/1.png 1x">
-                            <source media="(max-width: 767px)" srcset="./images/figures/1_@2x.png 2x, ./images/figures/1_.png 1x">
-                            <img src="./images/figures/1.png" alt="img" width="440" height="440">
-                        </picture>
-                    </div>
-                    <div class="item">
-                        <i>Consulting</i>
-                        <picture>
-                            <source media="(min-width: 768px)" srcset="./images/figures/6@2x.png 2x, ./images/figures/6.png 1x">
-                            <source media="(max-width: 767px)" srcset="./images/figures/6_@2x.png 2x, ./images/figures/6_.png 1x">
-                            <img src="./images/figures/6.png" alt="img" width="440" height="440">
-                        </picture>
-                    </div>
-                    <div class="item">
-                        <i>Legal</i>
-                        <picture>
-                            <source media="(min-width: 768px)" srcset="./images/figures/7@2x.png 2x, ./images/figures/7.png 1x">
-                            <source media="(max-width: 767px)" srcset="./images/figures/7_@2x.png 2x, ./images/figures/7_.png 1x">
-                            <img src="./images/figures/7.png" alt="img" width="454" height="440">
-                        </picture>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section page fp-auto-height fp-auto-height-responsive slide-research">
-        <div class="top">
-            <div class="wrapper-main">
-                <div class="row">
-                    <div class="text">
-                        <span>AX1 is one</span>
-                        <span>of the oldest</span>
-                        <span>research groups</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="block">
-            <div class="wrapper-main">
-                <div class="underheader">Today you have a chance to become a part of us</div>
-                <div class="center">
-                    <a href="/join" class="btn" onclick="return false;" style="pointer-events: none;">
-                        <span class="line-top--left"></span>
-                        <span class="line-top--right"></span>
-                        <span class="line-top--left-bot"></span>
-                        <span class="line-bot--center"></span>
-                        <span class="line--right"></span>
-                        Invite Only
-                    </a>
-                </div>
-            </div>
-            <div class="after">
-                <img src="images/layout/after-bg.svg" alt="img">
-            </div>
-        </div>
-    </section>
-
-    <section class="section page fp-auto-height fp-auto-height-responsive slide-article">
-        <div class="top">
-            <div class="wrapper-main">
-                <div class="row">
-                    <div class="text">
-                        Top Articles
-                    </div>
-                </div>
-
-                <div class="article-item">
-                    <div class="txt">
-                        <div class="txt-wrap">
-                            <a href="https://dune.com/ax1research/trust-wallet-revenue" target="_blank" rel="noopener" class="heading">Web3 Revenue</a>
-                            <p>
-                                Track on-chain <br/>
-                                data of the biggest <br/>
-                                Wallet
-                            </p>
+                    <div class="bottom">
+                        <div class="nav-slides">
+                            <span class="active"><i>01</i></span>
+                            <span><i>02</i></span>
                         </div>
-                        <a href="https://dune.com/ax1research/trust-wallet-revenue" target="_blank" rel="noopener" class="arrow-next">
-                            <svg width="56" height="41" viewBox="0 0 56 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M43.907 16.5805C38.8391 12.7681 35.1961 7.18057 33.9052 0.75L35.9552 0.75C38.0779 10.4768 46.0317 18.1011 56 19.6593L56 22.0873C46.0314 23.6458 38.0779 31.2732 35.9552 41L33.9052 41C35.1961 34.5694 38.8391 28.9819 43.907 25.1695L48.2842 21.8766L2.28044e-07 21.8766L2.51933e-07 19.8734L48.2842 19.8734L43.907 16.5805Z" fill="url(#paint0_linear_702_431)"/>
-                                <defs>
-                                    <linearGradient id="paint0_linear_702_431" x1="59.3336" y1="23.2825" x2="17.7501" y2="10.369" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#404064"/>
-                                        <stop offset="1" stop-color="white"/>
-                                    </linearGradient>
-                                </defs>
-                            </svg>
-                        </a>
+                        <span class="l"></span>
+                        <span class="r"></span>
+                        <div class="text">
+                            <span>Delivering the</span>
+                            <span>Digital Knockout</span>
+                            <span>for future</span>
+                        </div>
                     </div>
-                    <a href="https://dune.com/ax1research/trust-wallet-revenue" target="_blank" rel="noopener" class="photo">
-                        <img
-                                srcset="./images/revenue/photo@2x.jpg 2x, ./images/revenue/photo.jpg 1x"
-                                src="./images/revenue/photo.jpg"
-                                alt="img"
-                                width="792"
-                                height="432"
-                        >
-                        <div class="crc"></div>
-                    </a>
-                </div>
+                    <span class="arr">
+                        <img src="./images/layout/arr.svg" alt="logo">
+                    </span>
+                </section>
 
-                <div class="article-item">
-                    <div class="txt">
-                        <div class="txt-wrap">
-                            <a href="/wallet" class="heading">Wallet & DEX:</a>
-                            <p>
-                                Where Regulators  <br/>
-                                and Hustlers Meet
-                            </p>
+                <section class="section page fp-auto-height fp-auto-height-responsive slide2">
+                    <div class="top">
+                        <div class="wrapper-main">
+                            <div class="row">
+                                <div class="text">
+                                    AX1 is an Angel <br />
+                                    syndicate
+                                </div>
+                                <div class="nav-slides">
+                                    <span><i>01</i></span>
+                                    <span class="active"><i>02</i></span>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="item" style="visibility: hidden;">
+                                    <i></i>
+                                    <picture>
+                                        <source media="(min-width: 768px)"
+                                            srcset="./images/figures/1@2x.png 2x, ./images/figures/1.png 1x">
+                                        <source media="(max-width: 767px)"
+                                            srcset="./images/figures/1_@2x.png 2x, ./images/figures/1_.png 1x">
+                                        <img src="./images/figures/1.png" alt="img" width="440" height="440">
+                                    </picture>
+                                </div>
+                                <div class="item">
+                                    <i>Network</i>
+                                    <picture>
+                                        <source media="(min-width: 768px)"
+                                            srcset="./images/figures/1@2x.png 2x, ./images/figures/1.png 1x">
+                                        <source media="(max-width: 767px)"
+                                            srcset="./images/figures/1_@2x.png 2x, ./images/figures/1_.png 1x">
+                                        <img src="./images/figures/1.png" alt="img" width="440" height="440">
+                                    </picture>
+                                </div>
+                                <div class="item">
+                                    <i>Industry Insight</i>
+                                    <picture>
+                                        <source media="(min-width: 768px)"
+                                            srcset="./images/figures/2@2x.png 2x, ./images/figures/2.png 1x">
+                                        <source media="(max-width: 767px)"
+                                            srcset="./images/figures/2_@2x.png 2x, ./images/figures/2_.png 1x">
+                                        <img src="./images/figures/2.png" alt="img" width="440" height="440">
+                                    </picture>
+                                </div>
+                                <div class="item">
+                                    <i>AMA session</i>
+                                    <picture>
+                                        <source media="(min-width: 768px)"
+                                            srcset="./images/figures/3@2x.png 2x, ./images/figures/3.png 1x">
+                                        <source media="(max-width: 767px)"
+                                            srcset="./images/figures/3_@2x.png 2x, ./images/figures/3_.png 1x">
+                                        <img src="./images/figures/3.png" alt="img" width="463" height="440">
+                                    </picture>
+                                </div>
+                                <div class="item">
+                                    <i>Community</i>
+                                    <picture>
+                                        <source media="(min-width: 768px)"
+                                            srcset="./images/figures/4@2x.png 2x, ./images/figures/4.png 1x">
+                                        <source media="(max-width: 767px)"
+                                            srcset="./images/figures/4_@2x.png 2x, ./images/figures/4_.png 1x">
+                                        <img src="./images/figures/4.png" alt="img" width="440" height="440">
+                                    </picture>
+                                </div>
+
+                                <div class="item">
+                                    <i>Education</i>
+                                    <picture>
+                                        <source media="(min-width: 768px)"
+                                            srcset="./images/figures/5@2x.png 2x, ./images/figures/5.png 1x">
+                                        <source media="(max-width: 767px)"
+                                            srcset="./images/figures/5_@2x.png 2x, ./images/figures/5_.png 1x">
+                                        <img src="./images/figures/5.png" alt="img" width="541" height="444">
+                                    </picture>
+                                </div>
+                                <div class="item" style="visibility: hidden;">
+                                    <i></i>
+                                    <picture>
+                                        <source media="(min-width: 768px)"
+                                            srcset="./images/figures/1@2x.png 2x, ./images/figures/1.png 1x">
+                                        <source media="(max-width: 767px)"
+                                            srcset="./images/figures/1_@2x.png 2x, ./images/figures/1_.png 1x">
+                                        <img src="./images/figures/1.png" alt="img" width="440" height="440">
+                                    </picture>
+                                </div>
+                                <div class="item">
+                                    <i>Consulting</i>
+                                    <picture>
+                                        <source media="(min-width: 768px)"
+                                            srcset="./images/figures/6@2x.png 2x, ./images/figures/6.png 1x">
+                                        <source media="(max-width: 767px)"
+                                            srcset="./images/figures/6_@2x.png 2x, ./images/figures/6_.png 1x">
+                                        <img src="./images/figures/6.png" alt="img" width="440" height="440">
+                                    </picture>
+                                </div>
+                                <div class="item">
+                                    <i>Legal</i>
+                                    <picture>
+                                        <source media="(min-width: 768px)"
+                                            srcset="./images/figures/7@2x.png 2x, ./images/figures/7.png 1x">
+                                        <source media="(max-width: 767px)"
+                                            srcset="./images/figures/7_@2x.png 2x, ./images/figures/7_.png 1x">
+                                        <img src="./images/figures/7.png" alt="img" width="454" height="440">
+                                    </picture>
+                                </div>
+                            </div>
                         </div>
-                        <a href="/wallet" class="arrow-next">
-                            <svg width="56" height="41" viewBox="0 0 56 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M43.907 16.5805C38.8391 12.7681 35.1961 7.18057 33.9052 0.75L35.9552 0.75C38.0779 10.4768 46.0317 18.1011 56 19.6593L56 22.0873C46.0314 23.6458 38.0779 31.2732 35.9552 41L33.9052 41C35.1961 34.5694 38.8391 28.9819 43.907 25.1695L48.2842 21.8766L2.28044e-07 21.8766L2.51933e-07 19.8734L48.2842 19.8734L43.907 16.5805Z" fill="url(#paint0_linear_702_431)"/>
-                                <defs>
-                                    <linearGradient id="paint0_linear_702_431" x1="59.3336" y1="23.2825" x2="17.7501" y2="10.369" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#404064"/>
-                                        <stop offset="1" stop-color="white"/>
-                                    </linearGradient>
-                                </defs>
-                            </svg>
-                        </a>
                     </div>
-                    <a href="/wallet" class="photo">
-                        <img
-                                srcset="./images/wallet/photo@2x.jpg 2x, ./images/wallet/photo.jpg 1x"
-                                src="./images/wallet/photo.jpg"
-                                alt="img"
-                                width="792"
-                                height="432"
-                        >
-                        <div class="crc"></div>
-                    </a>
-                </div>
-                <div class="article-item">
-                    <div class="txt">
-                        <div class="txt-wrap">
-                            <a href="/messari" class="heading">Mainnet 2023</a>
-                            <p>
-                                We're sponsoring <br/>
-                                the upcoming Messari <br/>
-                                #Mainnet2023 <br/>
-                                conference
-                            </p>
+                </section>
+
+                <section class="section page fp-auto-height fp-auto-height-responsive slide-research">
+                    <div class="top">
+                        <div class="wrapper-main">
+                            <div class="row">
+                                <div class="text">
+                                    <span>AX1 is one</span>
+                                    <span>of the oldest</span>
+                                    <span>research groups</span>
+                                </div>
+                            </div>
                         </div>
-                        <a href="/messari" class="arrow-next">
-                            <svg width="56" height="41" viewBox="0 0 56 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M43.907 16.5805C38.8391 12.7681 35.1961 7.18057 33.9052 0.75L35.9552 0.75C38.0779 10.4768 46.0317 18.1011 56 19.6593L56 22.0873C46.0314 23.6458 38.0779 31.2732 35.9552 41L33.9052 41C35.1961 34.5694 38.8391 28.9819 43.907 25.1695L48.2842 21.8766L2.28044e-07 21.8766L2.51933e-07 19.8734L48.2842 19.8734L43.907 16.5805Z" fill="url(#paint0_linear_702_431)"/>
-                                <defs>
-                                    <linearGradient id="paint0_linear_702_431" x1="59.3336" y1="23.2825" x2="17.7501" y2="10.369" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#404064"/>
-                                        <stop offset="1" stop-color="white"/>
-                                    </linearGradient>
-                                </defs>
-                            </svg>
-                        </a>
                     </div>
-                    <a href="/messari" class="photo">
-                        <img
-                                srcset="./images/messari/photo@2x.jpg 2x, ./images/messari/photo.jpg 1x"
-                                src="./images/messari/photo.jpg"
-                                alt="img"
-                                width="792"
-                                height="432"
-                        >
-                        <div class="crc"></div>
-                    </a>
-                </div>
-                <div class="article-item">
-                    <div class="txt">
-                        <div class="txt-wrap">
-                            <a href="/legal" class="heading">Regulation, exchanges and taxes</a>
-                            <p>
-                                From the collapse <br/>
-                                of FTX to SEC's <br/>
-                                lawsuits against <br/>
-                                major players
-                            </p>
+                    <div class="block">
+                        <div class="wrapper-main">
+                            <div class="underheader">Today you have a chance to become a part of us</div>
+                            <div class="center">
+                                <a href="/join" class="btn" onclick="return false;" style="pointer-events: none;">
+                                    <span class="line-top--left"></span>
+                                    <span class="line-top--right"></span>
+                                    <span class="line-top--left-bot"></span>
+                                    <span class="line-bot--center"></span>
+                                    <span class="line--right"></span>
+                                    Invite Only
+                                </a>
+                            </div>
                         </div>
-                        <a href="/legal" class="arrow-next">
-                            <svg width="56" height="41" viewBox="0 0 56 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M43.907 16.5805C38.8391 12.7681 35.1961 7.18057 33.9052 0.75L35.9552 0.75C38.0779 10.4768 46.0317 18.1011 56 19.6593L56 22.0873C46.0314 23.6458 38.0779 31.2732 35.9552 41L33.9052 41C35.1961 34.5694 38.8391 28.9819 43.907 25.1695L48.2842 21.8766L2.28044e-07 21.8766L2.51933e-07 19.8734L48.2842 19.8734L43.907 16.5805Z" fill="url(#paint0_linear_702_431)"/>
-                                <defs>
-                                    <linearGradient id="paint0_linear_702_431" x1="59.3336" y1="23.2825" x2="17.7501" y2="10.369" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#404064"/>
-                                        <stop offset="1" stop-color="white"/>
-                                    </linearGradient>
-                                </defs>
-                            </svg>
-                        </a>
+                        <div class="after">
+                            <img src="images/layout/after-bg.svg" alt="img">
+                        </div>
                     </div>
-                    <a href="/legal" class="photo">
-                        <img
-                                srcset="./images/legal/photo@2x.jpg 2x, ./images/legal/photo.jpg 1x"
-                                src="./images/legal/photo.jpg"
-                                alt="img"
-                                width="792"
-                                height="432"
-                        >
-                        <div class="crc"></div>
-                    </a>
-                </div>
-                <!--<div class="article-item">
+                </section>
+
+                <section class="section page fp-auto-height fp-auto-height-responsive slide-article">
+                    <div class="top">
+                        <div class="wrapper-main">
+                            <div class="row">
+                                <div class="text">
+                                    Top Articles
+                                </div>
+                            </div>
+
+                            <div class="article-item">
+                                <div class="txt">
+                                    <div class="txt-wrap">
+                                        <a href="https://dune.com/ax1research/trust-wallet-revenue" target="_blank"
+                                            rel="noopener" class="heading">Web3 Revenue</a>
+                                        <p>
+                                            Track on-chain <br />
+                                            data of the biggest <br />
+                                            Wallet
+                                        </p>
+                                    </div>
+                                    <a href="https://dune.com/ax1research/trust-wallet-revenue" target="_blank"
+                                        rel="noopener" class="arrow-next">
+                                        <svg width="56" height="41" viewBox="0 0 56 41" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M43.907 16.5805C38.8391 12.7681 35.1961 7.18057 33.9052 0.75L35.9552 0.75C38.0779 10.4768 46.0317 18.1011 56 19.6593L56 22.0873C46.0314 23.6458 38.0779 31.2732 35.9552 41L33.9052 41C35.1961 34.5694 38.8391 28.9819 43.907 25.1695L48.2842 21.8766L2.28044e-07 21.8766L2.51933e-07 19.8734L48.2842 19.8734L43.907 16.5805Z"
+                                                fill="url(#paint0_linear_702_431)" />
+                                            <defs>
+                                                <linearGradient id="paint0_linear_702_431" x1="59.3336" y1="23.2825"
+                                                    x2="17.7501" y2="10.369" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#404064" />
+                                                    <stop offset="1" stop-color="white" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <a href="https://dune.com/ax1research/trust-wallet-revenue" target="_blank"
+                                    rel="noopener" class="photo">
+                                    <img srcset="./images/revenue/photo@2x.jpg 2x, ./images/revenue/photo.jpg 1x"
+                                        src="./images/revenue/photo.jpg" alt="img" width="792" height="432">
+                                    <div class="crc"></div>
+                                </a>
+                            </div>
+
+                            <div class="article-item">
+                                <div class="txt">
+                                    <div class="txt-wrap">
+                                        <a href="/wallet" class="heading">Wallet & DEX:</a>
+                                        <p>
+                                            Where Regulators <br />
+                                            and Hustlers Meet
+                                        </p>
+                                    </div>
+                                    <a href="/wallet" class="arrow-next">
+                                        <svg width="56" height="41" viewBox="0 0 56 41" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M43.907 16.5805C38.8391 12.7681 35.1961 7.18057 33.9052 0.75L35.9552 0.75C38.0779 10.4768 46.0317 18.1011 56 19.6593L56 22.0873C46.0314 23.6458 38.0779 31.2732 35.9552 41L33.9052 41C35.1961 34.5694 38.8391 28.9819 43.907 25.1695L48.2842 21.8766L2.28044e-07 21.8766L2.51933e-07 19.8734L48.2842 19.8734L43.907 16.5805Z"
+                                                fill="url(#paint0_linear_702_431)" />
+                                            <defs>
+                                                <linearGradient id="paint0_linear_702_431" x1="59.3336" y1="23.2825"
+                                                    x2="17.7501" y2="10.369" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#404064" />
+                                                    <stop offset="1" stop-color="white" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <a href="/wallet" class="photo">
+                                    <img srcset="./images/wallet/photo@2x.jpg 2x, ./images/wallet/photo.jpg 1x"
+                                        src="./images/wallet/photo.jpg" alt="img" width="792" height="432">
+                                    <div class="crc"></div>
+                                </a>
+                            </div>
+                            <div class="article-item">
+                                <div class="txt">
+                                    <div class="txt-wrap">
+                                        <a href="/messari" class="heading">Mainnet 2023</a>
+                                        <p>
+                                            We're sponsoring <br />
+                                            the upcoming Messari <br />
+                                            #Mainnet2023 <br />
+                                            conference
+                                        </p>
+                                    </div>
+                                    <a href="/messari" class="arrow-next">
+                                        <svg width="56" height="41" viewBox="0 0 56 41" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M43.907 16.5805C38.8391 12.7681 35.1961 7.18057 33.9052 0.75L35.9552 0.75C38.0779 10.4768 46.0317 18.1011 56 19.6593L56 22.0873C46.0314 23.6458 38.0779 31.2732 35.9552 41L33.9052 41C35.1961 34.5694 38.8391 28.9819 43.907 25.1695L48.2842 21.8766L2.28044e-07 21.8766L2.51933e-07 19.8734L48.2842 19.8734L43.907 16.5805Z"
+                                                fill="url(#paint0_linear_702_431)" />
+                                            <defs>
+                                                <linearGradient id="paint0_linear_702_431" x1="59.3336" y1="23.2825"
+                                                    x2="17.7501" y2="10.369" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#404064" />
+                                                    <stop offset="1" stop-color="white" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <a href="/messari" class="photo">
+                                    <img srcset="./images/messari/photo@2x.jpg 2x, ./images/messari/photo.jpg 1x"
+                                        src="./images/messari/photo.jpg" alt="img" width="792" height="432">
+                                    <div class="crc"></div>
+                                </a>
+                            </div>
+                            <div class="article-item">
+                                <div class="txt">
+                                    <div class="txt-wrap">
+                                        <a href="/legal" class="heading">Regulation, exchanges and taxes</a>
+                                        <p>
+                                            From the collapse <br />
+                                            of FTX to SEC's <br />
+                                            lawsuits against <br />
+                                            major players
+                                        </p>
+                                    </div>
+                                    <a href="/legal" class="arrow-next">
+                                        <svg width="56" height="41" viewBox="0 0 56 41" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M43.907 16.5805C38.8391 12.7681 35.1961 7.18057 33.9052 0.75L35.9552 0.75C38.0779 10.4768 46.0317 18.1011 56 19.6593L56 22.0873C46.0314 23.6458 38.0779 31.2732 35.9552 41L33.9052 41C35.1961 34.5694 38.8391 28.9819 43.907 25.1695L48.2842 21.8766L2.28044e-07 21.8766L2.51933e-07 19.8734L48.2842 19.8734L43.907 16.5805Z"
+                                                fill="url(#paint0_linear_702_431)" />
+                                            <defs>
+                                                <linearGradient id="paint0_linear_702_431" x1="59.3336" y1="23.2825"
+                                                    x2="17.7501" y2="10.369" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#404064" />
+                                                    <stop offset="1" stop-color="white" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <a href="/legal" class="photo">
+                                    <img srcset="./images/legal/photo@2x.jpg 2x, ./images/legal/photo.jpg 1x"
+                                        src="./images/legal/photo.jpg" alt="img" width="792" height="432">
+                                    <div class="crc"></div>
+                                </a>
+                            </div>
+                            <!--<div class="article-item">
                     <div class="txt">
                         <div class="txt-wrap">
                             <a href="/twt" class="heading">The wallets</a>
@@ -340,395 +359,393 @@
                         <div class="crc"></div>
                     </a>
                 </div>-->
-                <div class="article-item">
-                    <div class="txt">
-                        <div class="txt-wrap">
-                            <a href="/bitcoin" class="heading">Digital gold</a>
-                            <p>
-                                8 Key Points to Keep <br/>
-                                in Mind on the <br/>
-                                Path to $100,000
-                            </p>
-                        </div>
-                        <a href="/bitcoin" class="arrow-next">
-                            <svg width="56" height="41" viewBox="0 0 56 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M43.907 16.5805C38.8391 12.7681 35.1961 7.18057 33.9052 0.75L35.9552 0.75C38.0779 10.4768 46.0317 18.1011 56 19.6593L56 22.0873C46.0314 23.6458 38.0779 31.2732 35.9552 41L33.9052 41C35.1961 34.5694 38.8391 28.9819 43.907 25.1695L48.2842 21.8766L2.28044e-07 21.8766L2.51933e-07 19.8734L48.2842 19.8734L43.907 16.5805Z" fill="url(#paint0_linear_702_431)"/>
-                                <defs>
-                                    <linearGradient id="paint0_linear_702_431" x1="59.3336" y1="23.2825" x2="17.7501" y2="10.369" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#404064"/>
-                                        <stop offset="1" stop-color="white"/>
-                                    </linearGradient>
-                                </defs>
-                            </svg>
-                        </a>
-                    </div>
-                    <a href="/bitcoin" class="photo">
-                        <img
-                            srcset="./images/bitcoin/photo@2x.jpg 2x, ./images/bitcoin/photo.jpg 1x"
-                            src="./images/bitcoin/photo.jpg"
-                            alt="img"
-                            width="792"
-                            height="432"
-                        >
-                        <div class="crc"></div>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="axelerator">
-<!--                    <img class="bg-img" src="./images/axelerator/bg.png" alt="img">-->
-            <div class="top">
-                <div class="wrapper-main">
-                    <div class="row">
-                        <div class="text">
-                            AX1 Accelerator <br/>
-                            Beyond Your Horizon
-                            <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M19.7887 42.4096C26.0681 41.5218 32.595 42.8968 38.0549 46.5311L36.6054 47.9807C28.2265 42.6038 17.2111 42.8368 9.06063 48.7836L7.34382 47.0668C13.2906 38.9159 13.5212 27.8985 8.14435 19.5196L9.5939 18.0701C13.2282 23.53 14.6032 30.0569 13.7154 36.3363L12.9486 41.7599L47.0907 7.61775L48.5073 9.03427L14.3652 43.1764L19.7887 42.4096Z" fill="url(#paint0_linear_1211_927)"/>
-                                <defs>
-                                    <linearGradient id="paint0_linear_1211_927" x1="4.14141" y1="48.5789" x2="42.6767" y2="28.306" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#404064"/>
-                                        <stop offset="1" stop-color="white"/>
-                                    </linearGradient>
-                                </defs>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="video-block">
-                <img class="bg-grad" src="./images/axelerator/bg-grad.svg" alt="img">
-                <img class="bg-img2" src="./images/axelerator/bg2.svg" alt="img">
-                <video playsinline id="vid" class="photo" loop="loop" muted="muted" autoplay="autoplay">
-                    <source src="./video/video-bg.mp4" type="video/mp4">
-                </video>
-                <div class="wrapper-main">
-                    <div class="center">
-                        <a href="/fund" class="btn">
-                            <span class="line-top--left"></span>
-                            <span class="line-top--right"></span>
-                            <span class="line-top--left-bot"></span>
-                            <span class="line-bot--center"></span>
-                            <span class="line--right"></span>
-                            Pitch Me
-                        </a>
-                    </div>
-                    <img class="circle-icon" src="./images/axelerator/circle.svg" alt="img">
-                    <img class="circle-icon for-mob" style="display: none;" src="./images/axelerator/circle-mob.svg" alt="img">
-                    <picture>
-                        <img
-                            class="axelerator-diamond"
-                            alt="img"
-                            width="440"
-                            height="453"
-                            srcset="./images/axelerator/diamond@2x.png 2x, ./images/axelerator/diamond@2x.png 1x"
-                            src="./images/axelerator/diamond@2x.png"
-                        >
-                    </picture>
-                </div>
-            </div>
-        </div>
-
-        <div class="twitter-wrapper lazyClass">
-            <div class="wrapper-main">
-                <div class="twitter-left">
-                    <picture>
-                        <img
-                            alt="twitter"
-                            width="193"
-                            height="160"
-                            srcset="./images/twitter/twitter@2x.png 2x, ./images/twitter/twitter.png 1x"
-                            src="./images/twitter/twitter.png"
-                        >
-                    </picture>
-                    <div class="heading">
-                        <span>
-                            Follow us on <br/>
-                            Twitter
-                        </span>
-                        <a href="https://twitter.com/ax1vc" target="_blank" rel="noopener" class="arrow-next">
-                            <svg width="56" height="41" viewBox="0 0 56 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M43.907 16.5805C38.8391 12.7681 35.1961 7.18057 33.9052 0.75L35.9552 0.75C38.0779 10.4768 46.0317 18.1011 56 19.6593L56 22.0873C46.0314 23.6458 38.0779 31.2732 35.9552 41L33.9052 41C35.1961 34.5694 38.8391 28.9819 43.907 25.1695L48.2842 21.8766L2.28044e-07 21.8766L2.51933e-07 19.8734L48.2842 19.8734L43.907 16.5805Z" fill="url(#paint0_linear_702_4311)"></path>
-                                <defs>
-                                    <linearGradient id="paint0_linear_702_4311" x1="59.3336" y1="23.2825" x2="17.7501" y2="10.369" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#404064"></stop>
-                                        <stop offset="1" stop-color="white"></stop>
-                                    </linearGradient>
-                                </defs>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="twitter-right">
-                    <div class="block">
-                        <div class="topp">
-                            <img
-                                    class="avatar"
-                                    alt="twitter"
-                                    width="82"
-                                    height="82"
-                                    srcset="./images/twitter/thumb@2x.png 2x, ./images/twitter/thumb.png 1x"
-                                    src="./images/twitter/thumb.png"
-                            >
-                        </div>
-                        <div class="info">
-                            <div class="row-cont">
-                                <span>
-                                    AX1
-                                </span>
-                                <img
-                                    class="star"
-                                    alt="twitter"
-                                    width="17"
-                                    height="16"
-                                    srcset="./images/twitter/star@2x.png 2x, ./images/twitter/star.png 1x"
-                                    src="./images/twitter/star.png"
-                                >
-                            </div>
-                            <div class="row-cont2">
-                                @ax1vc
-                            </div>
-                            <div class="row-descr">
-                                Angel syndicate and research group
-                            </div>
-                            <div class="row-stat">
-                                <div>
-                                    <span class="">10</span>
-                                    <p>Following</p>
+                            <div class="article-item">
+                                <div class="txt">
+                                    <div class="txt-wrap">
+                                        <a href="/bitcoin" class="heading">Digital gold</a>
+                                        <p>
+                                            8 Key Points to Keep <br />
+                                            in Mind on the <br />
+                                            Path to $100,000
+                                        </p>
+                                    </div>
+                                    <a href="/bitcoin" class="arrow-next">
+                                        <svg width="56" height="41" viewBox="0 0 56 41" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M43.907 16.5805C38.8391 12.7681 35.1961 7.18057 33.9052 0.75L35.9552 0.75C38.0779 10.4768 46.0317 18.1011 56 19.6593L56 22.0873C46.0314 23.6458 38.0779 31.2732 35.9552 41L33.9052 41C35.1961 34.5694 38.8391 28.9819 43.907 25.1695L48.2842 21.8766L2.28044e-07 21.8766L2.51933e-07 19.8734L48.2842 19.8734L43.907 16.5805Z"
+                                                fill="url(#paint0_linear_702_431)" />
+                                            <defs>
+                                                <linearGradient id="paint0_linear_702_431" x1="59.3336" y1="23.2825"
+                                                    x2="17.7501" y2="10.369" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#404064" />
+                                                    <stop offset="1" stop-color="white" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+                                    </a>
                                 </div>
-                                <div>
-                                    <span style="display: none;" class="ilo" data-ilo-count data-ilo-username="ax1vc"></span>
-                                    <span class="count lazyClass">13000+</span>
-                                    <p>Followers</p>
+                                <a href="/bitcoin" class="photo">
+                                    <img srcset="./images/bitcoin/photo@2x.jpg 2x, ./images/bitcoin/photo.jpg 1x"
+                                        src="./images/bitcoin/photo.jpg" alt="img" width="792" height="432">
+                                    <div class="crc"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="axelerator">
+                        <!--                    <img class="bg-img" src="./images/axelerator/bg.png" alt="img">-->
+                        <div class="top">
+                            <div class="wrapper-main">
+                                <div class="row">
+                                    <div class="text">
+                                        AX1 Accelerator <br />
+                                        Beyond Your Horizon
+                                        <svg width="56" height="56" viewBox="0 0 56 56" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M19.7887 42.4096C26.0681 41.5218 32.595 42.8968 38.0549 46.5311L36.6054 47.9807C28.2265 42.6038 17.2111 42.8368 9.06063 48.7836L7.34382 47.0668C13.2906 38.9159 13.5212 27.8985 8.14435 19.5196L9.5939 18.0701C13.2282 23.53 14.6032 30.0569 13.7154 36.3363L12.9486 41.7599L47.0907 7.61775L48.5073 9.03427L14.3652 43.1764L19.7887 42.4096Z"
+                                                fill="url(#paint0_linear_1211_927)" />
+                                            <defs>
+                                                <linearGradient id="paint0_linear_1211_927" x1="4.14141" y1="48.5789"
+                                                    x2="42.6767" y2="28.306" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#404064" />
+                                                    <stop offset="1" stop-color="white" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+                                    </div>
                                 </div>
                             </div>
-                            <a class="row-profile" href="https://twitter.com/ax1vc" target="_blank" rel="noopener">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g opacity="0.3">
-                                        <path d="M23.894 5.13424C23.7521 4.90343 23.4924 4.7726 23.2221 4.79604L22.0254 4.90029L23.1693 2.59436C23.3055 2.31972 23.2517 1.98883 23.0355 1.77147C22.8193 1.55411 22.4887 1.4987 22.2134 1.63352L19.1859 3.11622C17.3154 2.12875 14.9786 2.42186 13.3705 3.88666C12.0285 5.10916 11.3231 6.98918 11.4546 8.864C7.94701 8.51244 4.97794 6.50473 3.22228 3.26069C3.10579 3.04549 2.8874 2.90472 2.64332 2.88742C2.39878 2.87041 2.16318 2.97878 2.01759 3.17552C0.92868 4.64655 0.852274 6.6635 1.70592 8.32283C1.4706 8.26339 1.2202 8.18295 0.942508 8.09019C0.704617 8.01064 0.442351 8.06159 0.251429 8.22434C0.0605067 8.38709 -0.0312747 8.63792 0.00955352 8.88547C0.347335 10.9333 1.54153 12.5072 3.42797 13.4388C3.18234 13.5244 2.9317 13.5938 2.67684 13.6469C2.42362 13.6997 2.21859 13.885 2.14054 14.1316C2.06249 14.3782 2.12353 14.6477 2.30025 14.8365C3.65873 16.2886 5.62111 17.0033 7.01499 17.3462C5.43014 18.5873 3.71934 18.795 1.23337 18.7096C0.945602 18.7009 0.680477 18.863 0.559492 19.1239C0.438554 19.3848 0.485476 19.6928 0.678742 19.9058C1.71506 21.0481 5.49066 22.3361 9.45967 22.4327C9.61665 22.4365 9.77678 22.4386 9.94028 22.4386C12.727 22.4385 16.4101 21.8411 19.0537 19.1975C21.0546 17.1966 22.3062 14.8931 22.7735 12.3513C23.1509 10.2983 22.9124 8.65428 22.7978 7.86415C22.7893 7.80608 22.7803 7.74443 22.773 7.69053L23.8925 5.88631C24.0352 5.65615 24.0359 5.36505 23.894 5.13424Z" fill="white"/>
-                                    </g>
-                                </svg>
-                                View profile
-                            </a>
+                        </div>
+                        <div class="video-block">
+                            <img class="bg-grad" src="./images/axelerator/bg-grad.svg" alt="img">
+                            <img class="bg-img2" src="./images/axelerator/bg2.svg" alt="img">
+                            <video playsinline id="vid" class="photo" loop="loop" muted="muted" autoplay="autoplay">
+                                <source src="./video/video-bg.mp4" type="video/mp4">
+                            </video>
+                            <div class="wrapper-main">
+                                <div class="center">
+                                    <a href="/fund" class="btn">
+                                        <span class="line-top--left"></span>
+                                        <span class="line-top--right"></span>
+                                        <span class="line-top--left-bot"></span>
+                                        <span class="line-bot--center"></span>
+                                        <span class="line--right"></span>
+                                        Pitch Me
+                                    </a>
+                                </div>
+                                <img class="circle-icon" src="./images/axelerator/circle.svg" alt="img">
+                                <img class="circle-icon for-mob" style="display: none;"
+                                    src="./images/axelerator/circle-mob.svg" alt="img">
+                                <picture>
+                                    <img class="axelerator-diamond" alt="img" width="440" height="453"
+                                        srcset="./images/axelerator/diamond@2x.png 2x, ./images/axelerator/diamond@2x.png 1x"
+                                        src="./images/axelerator/diamond@2x.png">
+                                </picture>
+                            </div>
                         </div>
                     </div>
-                    <div class="followers">
-                        <div class="items">
-                            <img
-                                    alt="twitter"
-                                    width="28"
-                                    height="28"
-                                    srcset="./images/twitter/ic1@2x.png 2x, ./images/twitter/ic1.png 1x"
-                                    src="./images/twitter/ic1.png"
-                            >
-                            <img
-                                    alt="twitter"
-                                    width="28"
-                                    height="28"
-                                    srcset="./images/twitter/ic2@2x.png 2x, ./images/twitter/ic2.png 1x"
-                                    src="./images/twitter/ic2.png"
-                            >
-                            <img
-                                    alt="twitter"
-                                    width="28"
-                                    height="28"
-                                    srcset="./images/twitter/ic3@2x.png 2x, ./images/twitter/ic3.png 1x"
-                                    src="./images/twitter/ic3.png"
-                            >
-                            <img
-                                    alt="twitter"
-                                    width="28"
-                                    height="28"
-                                    srcset="./images/twitter/ic4@2x.png 2x, ./images/twitter/ic4.png 1x"
-                                    src="./images/twitter/ic4.png"
-                            >
-                            <img
-                                    alt="twitter"
-                                    width="28"
-                                    height="28"
-                                    srcset="./images/twitter/ic5@2x.png 2x, ./images/twitter/ic5.png 1x"
-                                    src="./images/twitter/ic5.png"
-                            >
-                            <img
-                                    alt="twitter"
-                                    width="28"
-                                    height="28"
-                                    srcset="./images/twitter/ic6@2x.png 2x, ./images/twitter/ic6.png 1x"
-                                    src="./images/twitter/ic6.png"
-                            >
-                            <img
-                                    alt="twitter"
-                                    width="28"
-                                    height="28"
-                                    srcset="./images/twitter/ic7.png 2x, ./images/twitter/ic7.png 1x"
-                                    src="./images/twitter/ic7.png"
-                            >
-                            <img
-                                    alt="twitter"
-                                    width="28"
-                                    height="28"
-                                    srcset="./images/twitter/ic8@2x.png 2x, ./images/twitter/ic8.png 1x"
-                                    src="./images/twitter/ic8.png"
-                            >
-                            <img
-                                    alt="twitter"
-                                    width="28"
-                                    height="28"
-                                    srcset="./images/twitter/ic9@2x.png 2x, ./images/twitter/ic9.png 1x"
-                                    src="./images/twitter/ic9.png"
-                            >
-                            <img
-                                    alt="twitter"
-                                    width="28"
-                                    height="28"
-                                    srcset="./images/twitter/ic10@2x.png 2x, ./images/twitter/ic10.png 1x"
-                                    src="./images/twitter/ic10.png"
-                            >
-                            <div class="item"></div>
-                            <div class="item"></div>
-                            <div class="item"></div>
+
+                    <div class="twitter-wrapper lazyClass">
+                        <div class="wrapper-main">
+                            <div class="twitter-left">
+                                <picture>
+                                    <img alt="twitter" width="193" height="160"
+                                        srcset="./images/twitter/twitter@2x.png 2x, ./images/twitter/twitter.png 1x"
+                                        src="./images/twitter/twitter.png">
+                                </picture>
+                                <div class="heading">
+                                    <span>
+                                        Follow us on <br />
+                                        Twitter
+                                    </span>
+                                    <a href="https://twitter.com/ax1vc" target="_blank" rel="noopener"
+                                        class="arrow-next">
+                                        <svg width="56" height="41" viewBox="0 0 56 41" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M43.907 16.5805C38.8391 12.7681 35.1961 7.18057 33.9052 0.75L35.9552 0.75C38.0779 10.4768 46.0317 18.1011 56 19.6593L56 22.0873C46.0314 23.6458 38.0779 31.2732 35.9552 41L33.9052 41C35.1961 34.5694 38.8391 28.9819 43.907 25.1695L48.2842 21.8766L2.28044e-07 21.8766L2.51933e-07 19.8734L48.2842 19.8734L43.907 16.5805Z"
+                                                fill="url(#paint0_linear_702_4311)"></path>
+                                            <defs>
+                                                <linearGradient id="paint0_linear_702_4311" x1="59.3336" y1="23.2825"
+                                                    x2="17.7501" y2="10.369" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#404064"></stop>
+                                                    <stop offset="1" stop-color="white"></stop>
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="twitter-right">
+                                <div class="block">
+                                    <div class="topp">
+                                        <img class="avatar" alt="twitter" width="82" height="82"
+                                            srcset="./images/twitter/thumb@2x.png 2x, ./images/twitter/thumb.png 1x"
+                                            src="./images/twitter/thumb.png">
+                                    </div>
+                                    <div class="info">
+                                        <div class="row-cont">
+                                            <span>
+                                                DDP
+                                            </span>
+                                            <img class="star" alt="twitter" width="17" height="16"
+                                                srcset="./images/twitter/star@2x.png 2x, ./images/twitter/star.png 1x"
+                                                src="./images/twitter/star.png">
+                                        </div>
+                                        <div class="row-cont2">
+                                            @ddpforyou
+                                        </div>
+                                        <div class="row-descr">
+                                            Angel syndicate and research group
+                                        </div>
+                                        <div class="row-stat">
+                                            <div>
+                                                <span class="">10</span>
+                                                <p>Following</p>
+                                            </div>
+                                            <div>
+                                                <span style="display: none;" class="ilo" data-ilo-count
+                                                    data-ilo-username="ax1vc"></span>
+                                                <span class="count lazyClass">13000+</span>
+                                                <p>Followers</p>
+                                            </div>
+                                        </div>
+                                        <a class="row-profile" href="https://twitter.com/ax1vc" target="_blank"
+                                            rel="noopener">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g opacity="0.3">
+                                                    <path
+                                                        d="M23.894 5.13424C23.7521 4.90343 23.4924 4.7726 23.2221 4.79604L22.0254 4.90029L23.1693 2.59436C23.3055 2.31972 23.2517 1.98883 23.0355 1.77147C22.8193 1.55411 22.4887 1.4987 22.2134 1.63352L19.1859 3.11622C17.3154 2.12875 14.9786 2.42186 13.3705 3.88666C12.0285 5.10916 11.3231 6.98918 11.4546 8.864C7.94701 8.51244 4.97794 6.50473 3.22228 3.26069C3.10579 3.04549 2.8874 2.90472 2.64332 2.88742C2.39878 2.87041 2.16318 2.97878 2.01759 3.17552C0.92868 4.64655 0.852274 6.6635 1.70592 8.32283C1.4706 8.26339 1.2202 8.18295 0.942508 8.09019C0.704617 8.01064 0.442351 8.06159 0.251429 8.22434C0.0605067 8.38709 -0.0312747 8.63792 0.00955352 8.88547C0.347335 10.9333 1.54153 12.5072 3.42797 13.4388C3.18234 13.5244 2.9317 13.5938 2.67684 13.6469C2.42362 13.6997 2.21859 13.885 2.14054 14.1316C2.06249 14.3782 2.12353 14.6477 2.30025 14.8365C3.65873 16.2886 5.62111 17.0033 7.01499 17.3462C5.43014 18.5873 3.71934 18.795 1.23337 18.7096C0.945602 18.7009 0.680477 18.863 0.559492 19.1239C0.438554 19.3848 0.485476 19.6928 0.678742 19.9058C1.71506 21.0481 5.49066 22.3361 9.45967 22.4327C9.61665 22.4365 9.77678 22.4386 9.94028 22.4386C12.727 22.4385 16.4101 21.8411 19.0537 19.1975C21.0546 17.1966 22.3062 14.8931 22.7735 12.3513C23.1509 10.2983 22.9124 8.65428 22.7978 7.86415C22.7893 7.80608 22.7803 7.74443 22.773 7.69053L23.8925 5.88631C24.0352 5.65615 24.0359 5.36505 23.894 5.13424Z"
+                                                        fill="white" />
+                                                </g>
+                                            </svg>
+                                            View profile
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="followers">
+                                    <div class="items">
+                                        <img alt="twitter" width="28" height="28"
+                                            srcset="./images/twitter/ic1@2x.png 2x, ./images/twitter/ic1.png 1x"
+                                            src="./images/twitter/ic1.png">
+                                        <img alt="twitter" width="28" height="28"
+                                            srcset="./images/twitter/ic2@2x.png 2x, ./images/twitter/ic2.png 1x"
+                                            src="./images/twitter/ic2.png">
+                                        <img alt="twitter" width="28" height="28"
+                                            srcset="./images/twitter/ic3@2x.png 2x, ./images/twitter/ic3.png 1x"
+                                            src="./images/twitter/ic3.png">
+                                        <img alt="twitter" width="28" height="28"
+                                            srcset="./images/twitter/ic4@2x.png 2x, ./images/twitter/ic4.png 1x"
+                                            src="./images/twitter/ic4.png">
+                                        <img alt="twitter" width="28" height="28"
+                                            srcset="./images/twitter/ic5@2x.png 2x, ./images/twitter/ic5.png 1x"
+                                            src="./images/twitter/ic5.png">
+                                        <img alt="twitter" width="28" height="28"
+                                            srcset="./images/twitter/ic6@2x.png 2x, ./images/twitter/ic6.png 1x"
+                                            src="./images/twitter/ic6.png">
+                                        <img alt="twitter" width="28" height="28"
+                                            srcset="./images/twitter/ic7.png 2x, ./images/twitter/ic7.png 1x"
+                                            src="./images/twitter/ic7.png">
+                                        <img alt="twitter" width="28" height="28"
+                                            srcset="./images/twitter/ic8@2x.png 2x, ./images/twitter/ic8.png 1x"
+                                            src="./images/twitter/ic8.png">
+                                        <img alt="twitter" width="28" height="28"
+                                            srcset="./images/twitter/ic9@2x.png 2x, ./images/twitter/ic9.png 1x"
+                                            src="./images/twitter/ic9.png">
+                                        <img alt="twitter" width="28" height="28"
+                                            srcset="./images/twitter/ic10@2x.png 2x, ./images/twitter/ic10.png 1x"
+                                            src="./images/twitter/ic10.png">
+                                        <div class="item"></div>
+                                        <div class="item"></div>
+                                        <div class="item"></div>
+                                    </div>
+
+                                    <span>+10 new followers</span>
+                                </div>
+                            </div>
                         </div>
 
-                        <span>+10 new followers</span>
                     </div>
-                </div>
-            </div>
+                </section>
 
-        </div>
-    </section>
-
-    <section class="section page fp-auto-height fp-auto-height-responsive slide3">
-        <div class="top">
-            <div class="wrapper-main">
-                <div class="row">
-                    <div class="text">
-                        The Board
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section-slider">
-            <div class="block">
-                <div class="txt">
-                    & more than
-                    <b>
-                        10&nbsp;000<br/>
-                        members
-                    </b>
-<!--                            <a href="https://alfa.community/" target="_blank" rel="noopener">-->
-<!--                                <img src="./images/layout/alpha.png" srcset="./images/layout/alpha@2x.png 2x, ./images/layout/alpha.png 1x" alt="img" width="158" height="40">-->
-<!--                            </a>-->
-                </div>
-                <div class="arr-next"><span>Swipe</span></div>
-                <div class="slider" style="opacity:0;">
-                    <div class="item">
-                        <div class="info">
-                            <div class="name">illiquid.esq</div>
-                            <div class="job">Legal</div>
-                            <a href="https://twitter.com/illiquidesq" class="social-cont" target="_blank" rel="noopener">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g opacity="0.3" clip-path="url(#clip0_723_145q)">
-                                        <path d="M23.894 5.13461C23.7521 4.9038 23.4925 4.77297 23.2222 4.7964L22.0255 4.90065L23.1694 2.59473C23.3056 2.32009 23.2518 1.9892 23.0356 1.77184C22.8193 1.55448 22.4887 1.49907 22.2134 1.63388L19.1859 3.11659C17.3155 2.12912 14.9786 2.42223 13.3706 3.88703C12.0286 5.10953 11.3231 6.98955 11.4547 8.86437C7.94706 8.5128 4.97799 6.5051 3.22234 3.26106C3.10585 3.04585 2.88746 2.90509 2.64338 2.88779C2.39883 2.87078 2.16324 2.97915 2.01765 3.17589C0.928738 4.64692 0.852331 6.66386 1.70597 8.32319C1.47066 8.26375 1.22025 8.18332 0.942566 8.09055C0.704675 8.011 0.442408 8.06196 0.251486 8.22471C0.0605639 8.38746 -0.0312175 8.63829 0.00961074 8.88583C0.347393 10.9337 1.54158 12.5076 3.42802 13.4392C3.1824 13.5247 2.93176 13.5942 2.6769 13.6473C2.42368 13.7001 2.21865 13.8853 2.1406 14.132C2.06255 14.3785 2.12358 14.648 2.3003 14.8369C3.65879 16.289 5.62117 17.0037 7.01505 17.3466C5.4302 18.5877 3.7194 18.7954 1.23343 18.71C0.945659 18.7013 0.680534 18.8634 0.559549 19.1242C0.438612 19.3852 0.485534 19.6931 0.6788 19.9062C1.71511 21.0485 5.49072 22.3365 9.45972 22.4331C9.61671 22.4369 9.77683 22.4389 9.94033 22.4389C12.7271 22.4389 16.4101 21.8415 19.0537 19.1979C21.0547 17.197 22.3063 14.8935 22.7736 12.3516C23.151 10.2986 22.9125 8.65465 22.7978 7.86452C22.7894 7.80644 22.7804 7.7448 22.7731 7.69089L23.8925 5.88667C24.0353 5.65652 24.0359 5.36542 23.894 5.13461Z" fill="white"/>
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_723_145q">
-                                            <rect width="24" height="24" fill="white"/>
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                            </a>
+                <section class="section page fp-auto-height fp-auto-height-responsive slide3">
+                    <div class="top">
+                        <div class="wrapper-main">
+                            <div class="row">
+                                <div class="text">
+                                    The Board
+                                </div>
+                            </div>
                         </div>
-                        <img class="stub" src="./images/slide3/1.png" alt="img">
-                        <img class="current" src="./images/slide3/4.png" srcset="./images/slide3/4@2x.png 2x, ./images/slide3/4.png 1x" alt="img" width="440" height="440">
                     </div>
-                    <div class="item">
-                        <div class="info">
-                            <div class="name">Sergio Vidal</div>
-                            <div class="job">Editor-in-chief</div>
-                            <a href="https://t.me/ax1syndicate
+                    <div class="section-slider">
+                        <div class="block">
+                            <div class="txt">
+                                & more than
+                                <b>
+                                    10&nbsp;000<br />
+                                    members
+                                </b>
+                                <!--                            <a href="https://alfa.community/" target="_blank" rel="noopener">-->
+                                <!--                                <img src="./images/layout/alpha.png" srcset="./images/layout/alpha@2x.png 2x, ./images/layout/alpha.png 1x" alt="img" width="158" height="40">-->
+                                <!--                            </a>-->
+                            </div>
+                            <div class="arr-next"><span>Swipe</span></div>
+                            <div class="slider" style="opacity:0;">
+                                <div class="item">
+                                    <div class="info">
+                                        <div class="name">illiquid.esq</div>
+                                        <div class="job">Legal</div>
+                                        <a href="https://twitter.com/illiquidesq" class="social-cont" target="_blank"
+                                            rel="noopener">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g opacity="0.3" clip-path="url(#clip0_723_145q)">
+                                                    <path
+                                                        d="M23.894 5.13461C23.7521 4.9038 23.4925 4.77297 23.2222 4.7964L22.0255 4.90065L23.1694 2.59473C23.3056 2.32009 23.2518 1.9892 23.0356 1.77184C22.8193 1.55448 22.4887 1.49907 22.2134 1.63388L19.1859 3.11659C17.3155 2.12912 14.9786 2.42223 13.3706 3.88703C12.0286 5.10953 11.3231 6.98955 11.4547 8.86437C7.94706 8.5128 4.97799 6.5051 3.22234 3.26106C3.10585 3.04585 2.88746 2.90509 2.64338 2.88779C2.39883 2.87078 2.16324 2.97915 2.01765 3.17589C0.928738 4.64692 0.852331 6.66386 1.70597 8.32319C1.47066 8.26375 1.22025 8.18332 0.942566 8.09055C0.704675 8.011 0.442408 8.06196 0.251486 8.22471C0.0605639 8.38746 -0.0312175 8.63829 0.00961074 8.88583C0.347393 10.9337 1.54158 12.5076 3.42802 13.4392C3.1824 13.5247 2.93176 13.5942 2.6769 13.6473C2.42368 13.7001 2.21865 13.8853 2.1406 14.132C2.06255 14.3785 2.12358 14.648 2.3003 14.8369C3.65879 16.289 5.62117 17.0037 7.01505 17.3466C5.4302 18.5877 3.7194 18.7954 1.23343 18.71C0.945659 18.7013 0.680534 18.8634 0.559549 19.1242C0.438612 19.3852 0.485534 19.6931 0.6788 19.9062C1.71511 21.0485 5.49072 22.3365 9.45972 22.4331C9.61671 22.4369 9.77683 22.4389 9.94033 22.4389C12.7271 22.4389 16.4101 21.8415 19.0537 19.1979C21.0547 17.197 22.3063 14.8935 22.7736 12.3516C23.151 10.2986 22.9125 8.65465 22.7978 7.86452C22.7894 7.80644 22.7804 7.7448 22.7731 7.69089L23.8925 5.88667C24.0353 5.65652 24.0359 5.36542 23.894 5.13461Z"
+                                                        fill="white" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_723_145q">
+                                                        <rect width="24" height="24" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <img class="stub" src="./images/slide3/1.png" alt="img">
+                                    <img class="current" src="./images/slide3/4.png"
+                                        srcset="./images/slide3/4@2x.png 2x, ./images/slide3/4.png 1x" alt="img"
+                                        width="440" height="440">
+                                </div>
+                                <div class="item">
+                                    <div class="info">
+                                        <div class="name">Sergio Vidal</div>
+                                        <div class="job">Editor-in-chief</div>
+                                        <a href="https://t.me/ax1syndicate
 " class="social-cont" target="_blank" rel="noopener">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g opacity="0.3">
-                                        <path d="M20.2011 2.04343L4.24881 6.99318C3.60373 7.19167 3.03836 7.58991 2.63422 8.13048C2.23009 8.67104 2.00808 9.32599 2.00022 10.0009C1.99235 10.6758 2.19903 11.3357 2.59046 11.8855C2.98188 12.4354 3.53782 12.8467 4.1781 13.0602L7.79849 14.2764L12.7129 9.36199C12.9004 9.17445 13.1548 9.06909 13.42 9.06909C13.6852 9.06909 13.9396 9.17445 14.1271 9.36199C14.3146 9.54952 14.42 9.80388 14.42 10.0691C14.42 10.3343 14.3146 10.5887 14.1271 10.7762L9.2127 15.6906L10.4289 19.311C10.6423 19.9513 11.0536 20.5073 11.6035 20.8988C12.1533 21.2902 12.8133 21.497 13.4882 21.4891C14.1631 21.4812 14.8181 21.2592 15.3587 20.855C15.8992 20.4508 16.2975 19.8854 16.4959 19.2403L21.4457 3.28794C21.4984 3.11499 21.5032 2.93095 21.4594 2.75551C21.4156 2.58007 21.325 2.41985 21.1971 2.29199C21.0692 2.16413 20.909 2.07345 20.7336 2.02967C20.5581 1.98588 20.3741 1.99064 20.2011 2.04343Z" fill="white"/>
-                                    </g>
-                                </svg>
-                            </a>
-                        </div>
-                        <img class="stub" src="./images/slide3/1.png" alt="img">
-                        <img class="current" src="./images/slide3/1.png" srcset="./images/slide3/1@2x.png 2x, ./images/slide3/1.png 1x" alt="img" width="440" height="440">
-                    </div>
-                    <div class="item">
-                        <div class="info">
-                            <div class="name">Stepan Sergeev</div>
-                            <div class="job">North America</div>
-                            <a href="https://www.linkedin.com/in/stergeev" class="social-cont" target="_blank" rel="noopener">
-                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M22.1 21.6V14.568C22.1 11.112 21.356 8.47205 17.324 8.47205C15.3902 8.47205 14.0976 9.517 13.5644 10.5202C13.5592 10.53 13.549 10.536 13.5379 10.536C13.5214 10.536 13.508 10.5227 13.508 10.5061V9.66005C13.508 9.17624 13.1158 8.78405 12.632 8.78405H10.692C10.1397 8.78405 9.69202 9.23176 9.69202 9.78405V20.6C9.69202 21.1523 10.1397 21.6 10.692 21.6H12.676C13.2283 21.6 13.676 21.1523 13.676 20.6V15.24C13.676 13.56 13.988 11.952 16.052 11.952C18.092 11.952 18.116 13.848 18.116 15.336V20.576C18.116 21.1283 18.5637 21.576 19.116 21.576H22.076C22.0893 21.576 22.1 21.5868 22.1 21.6Z" fill="#595863"/>
-                                    <path d="M3.21204 9.78406C3.21204 9.23177 3.65975 8.78406 4.21204 8.78406H6.19604C6.74832 8.78406 7.19604 9.23177 7.19604 9.78406V20.6001C7.19604 21.1523 6.74832 21.6001 6.19604 21.6001H4.21204C3.65975 21.6001 3.21204 21.1523 3.21204 20.6001V9.78406Z" fill="#595863"/>
-                                    <path d="M5.20402 2.40002C3.93202 2.40002 2.90002 3.43202 2.90002 4.70402C2.90002 5.97602 3.93202 7.03202 5.20402 7.03202C6.47602 7.03202 7.50802 5.97602 7.50802 4.70402C7.50802 3.43202 6.47602 2.40002 5.20402 2.40002Z" fill="#595863"/>
-                                </svg>
-                            </a>
-                        </div>
-                        <img class="stub" src="./images/slide3/1.png" alt="img">
-                        <img class="current" src="./images/slide3/1.png" srcset="./images/slide3/1@2x.png 2x, ./images/slide3/1.png 1x" alt="img" width="440" height="440">
-                    </div>
-                    <div class="item">
-                        <div class="info">
-                            <div class="name">RK</div>
-                            <div class="job">b0rder1ess</div>
-                            <a href="https://twitter.com/blockchainR_K" class="social-cont" target="_blank" rel="noopener">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g opacity="0.3" clip-path="url(#clip0_723_145q)">
-                                        <path d="M23.894 5.13461C23.7521 4.9038 23.4925 4.77297 23.2222 4.7964L22.0255 4.90065L23.1694 2.59473C23.3056 2.32009 23.2518 1.9892 23.0356 1.77184C22.8193 1.55448 22.4887 1.49907 22.2134 1.63388L19.1859 3.11659C17.3155 2.12912 14.9786 2.42223 13.3706 3.88703C12.0286 5.10953 11.3231 6.98955 11.4547 8.86437C7.94706 8.5128 4.97799 6.5051 3.22234 3.26106C3.10585 3.04585 2.88746 2.90509 2.64338 2.88779C2.39883 2.87078 2.16324 2.97915 2.01765 3.17589C0.928738 4.64692 0.852331 6.66386 1.70597 8.32319C1.47066 8.26375 1.22025 8.18332 0.942566 8.09055C0.704675 8.011 0.442408 8.06196 0.251486 8.22471C0.0605639 8.38746 -0.0312175 8.63829 0.00961074 8.88583C0.347393 10.9337 1.54158 12.5076 3.42802 13.4392C3.1824 13.5247 2.93176 13.5942 2.6769 13.6473C2.42368 13.7001 2.21865 13.8853 2.1406 14.132C2.06255 14.3785 2.12358 14.648 2.3003 14.8369C3.65879 16.289 5.62117 17.0037 7.01505 17.3466C5.4302 18.5877 3.7194 18.7954 1.23343 18.71C0.945659 18.7013 0.680534 18.8634 0.559549 19.1242C0.438612 19.3852 0.485534 19.6931 0.6788 19.9062C1.71511 21.0485 5.49072 22.3365 9.45972 22.4331C9.61671 22.4369 9.77683 22.4389 9.94033 22.4389C12.7271 22.4389 16.4101 21.8415 19.0537 19.1979C21.0547 17.197 22.3063 14.8935 22.7736 12.3516C23.151 10.2986 22.9125 8.65465 22.7978 7.86452C22.7894 7.80644 22.7804 7.7448 22.7731 7.69089L23.8925 5.88667C24.0353 5.65652 24.0359 5.36542 23.894 5.13461Z" fill="white"/>
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_723_145q">
-                                            <rect width="24" height="24" fill="white"/>
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                            </a>
-                        </div>
-                        <img class="stub" src="./images/slide3/1.png" alt="img">
-                        <img class="current" src="./images/slide3/6.png" srcset="./images/slide3/6@2x.png 2x, ./images/slide3/6.png 1x" alt="img" width="440" height="440">
-                    </div>
-                    <div class="item">
-                        <div class="info">
-                            <div class="name">DMH</div>
-                            <div class="job">Research</div>
-                            <a href="https://twitter.com/defi_made_here" class="social-cont" target="_blank" rel="noopener">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g opacity="0.3" clip-path="url(#clip0_723_145q)">
-                                        <path d="M23.894 5.13461C23.7521 4.9038 23.4925 4.77297 23.2222 4.7964L22.0255 4.90065L23.1694 2.59473C23.3056 2.32009 23.2518 1.9892 23.0356 1.77184C22.8193 1.55448 22.4887 1.49907 22.2134 1.63388L19.1859 3.11659C17.3155 2.12912 14.9786 2.42223 13.3706 3.88703C12.0286 5.10953 11.3231 6.98955 11.4547 8.86437C7.94706 8.5128 4.97799 6.5051 3.22234 3.26106C3.10585 3.04585 2.88746 2.90509 2.64338 2.88779C2.39883 2.87078 2.16324 2.97915 2.01765 3.17589C0.928738 4.64692 0.852331 6.66386 1.70597 8.32319C1.47066 8.26375 1.22025 8.18332 0.942566 8.09055C0.704675 8.011 0.442408 8.06196 0.251486 8.22471C0.0605639 8.38746 -0.0312175 8.63829 0.00961074 8.88583C0.347393 10.9337 1.54158 12.5076 3.42802 13.4392C3.1824 13.5247 2.93176 13.5942 2.6769 13.6473C2.42368 13.7001 2.21865 13.8853 2.1406 14.132C2.06255 14.3785 2.12358 14.648 2.3003 14.8369C3.65879 16.289 5.62117 17.0037 7.01505 17.3466C5.4302 18.5877 3.7194 18.7954 1.23343 18.71C0.945659 18.7013 0.680534 18.8634 0.559549 19.1242C0.438612 19.3852 0.485534 19.6931 0.6788 19.9062C1.71511 21.0485 5.49072 22.3365 9.45972 22.4331C9.61671 22.4369 9.77683 22.4389 9.94033 22.4389C12.7271 22.4389 16.4101 21.8415 19.0537 19.1979C21.0547 17.197 22.3063 14.8935 22.7736 12.3516C23.151 10.2986 22.9125 8.65465 22.7978 7.86452C22.7894 7.80644 22.7804 7.7448 22.7731 7.69089L23.8925 5.88667C24.0353 5.65652 24.0359 5.36542 23.894 5.13461Z" fill="white"/>
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_723_145q">
-                                            <rect width="24" height="24" fill="white"/>
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                            </a>
-                        </div>
-                        <img class="stub" src="./images/slide3/1.png" alt="img">
-                        <img class="current" src="./images/slide3/7.png" srcset="./images/slide3/7@2x.png 2x, ./images/slide3/7.png 1x" alt="img" width="440" height="440">
-                    </div>
-                    <div class="item">
-                        <div class="info">
-                            <div class="name">Artem Verovenko</div>
-                            <div class="job">VC</div>
-                            <a href="https://uk.linkedin.com/in/artemverovenko" class="social-cont" target="_blank" rel="noopener">
-                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M22.1 21.6V14.568C22.1 11.112 21.356 8.47205 17.324 8.47205C15.3902 8.47205 14.0976 9.517 13.5644 10.5202C13.5592 10.53 13.549 10.536 13.5379 10.536C13.5214 10.536 13.508 10.5227 13.508 10.5061V9.66005C13.508 9.17624 13.1158 8.78405 12.632 8.78405H10.692C10.1397 8.78405 9.69202 9.23176 9.69202 9.78405V20.6C9.69202 21.1523 10.1397 21.6 10.692 21.6H12.676C13.2283 21.6 13.676 21.1523 13.676 20.6V15.24C13.676 13.56 13.988 11.952 16.052 11.952C18.092 11.952 18.116 13.848 18.116 15.336V20.576C18.116 21.1283 18.5637 21.576 19.116 21.576H22.076C22.0893 21.576 22.1 21.5868 22.1 21.6Z" fill="#595863"/>
-                                    <path d="M3.21204 9.78406C3.21204 9.23177 3.65975 8.78406 4.21204 8.78406H6.19604C6.74832 8.78406 7.19604 9.23177 7.19604 9.78406V20.6001C7.19604 21.1523 6.74832 21.6001 6.19604 21.6001H4.21204C3.65975 21.6001 3.21204 21.1523 3.21204 20.6001V9.78406Z" fill="#595863"/>
-                                    <path d="M5.20402 2.40002C3.93202 2.40002 2.90002 3.43202 2.90002 4.70402C2.90002 5.97602 3.93202 7.03202 5.20402 7.03202C6.47602 7.03202 7.50802 5.97602 7.50802 4.70402C7.50802 3.43202 6.47602 2.40002 5.20402 2.40002Z" fill="#595863"/>
-                                </svg>
-                            </a>
-                        </div>
-                        <img class="stub" src="./images/slide3/1.png" alt="img">
-                        <img class="current" src="./images/slide3/3.png" srcset="./images/slide3/3@2x.png 2x, ./images/slide3/3.png 1x" alt="img" width="440" height="440">
-                    </div>
-                    <!--<div class="item">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g opacity="0.3">
+                                                    <path
+                                                        d="M20.2011 2.04343L4.24881 6.99318C3.60373 7.19167 3.03836 7.58991 2.63422 8.13048C2.23009 8.67104 2.00808 9.32599 2.00022 10.0009C1.99235 10.6758 2.19903 11.3357 2.59046 11.8855C2.98188 12.4354 3.53782 12.8467 4.1781 13.0602L7.79849 14.2764L12.7129 9.36199C12.9004 9.17445 13.1548 9.06909 13.42 9.06909C13.6852 9.06909 13.9396 9.17445 14.1271 9.36199C14.3146 9.54952 14.42 9.80388 14.42 10.0691C14.42 10.3343 14.3146 10.5887 14.1271 10.7762L9.2127 15.6906L10.4289 19.311C10.6423 19.9513 11.0536 20.5073 11.6035 20.8988C12.1533 21.2902 12.8133 21.497 13.4882 21.4891C14.1631 21.4812 14.8181 21.2592 15.3587 20.855C15.8992 20.4508 16.2975 19.8854 16.4959 19.2403L21.4457 3.28794C21.4984 3.11499 21.5032 2.93095 21.4594 2.75551C21.4156 2.58007 21.325 2.41985 21.1971 2.29199C21.0692 2.16413 20.909 2.07345 20.7336 2.02967C20.5581 1.98588 20.3741 1.99064 20.2011 2.04343Z"
+                                                        fill="white" />
+                                                </g>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <img class="stub" src="./images/slide3/1.png" alt="img">
+                                    <img class="current" src="./images/slide3/1.png"
+                                        srcset="./images/slide3/1@2x.png 2x, ./images/slide3/1.png 1x" alt="img"
+                                        width="440" height="440">
+                                </div>
+                                <div class="item">
+                                    <div class="info">
+                                        <div class="name">Stepan Sergeev</div>
+                                        <div class="job">North America</div>
+                                        <a href="https://www.linkedin.com/in/stergeev" class="social-cont"
+                                            target="_blank" rel="noopener">
+                                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M22.1 21.6V14.568C22.1 11.112 21.356 8.47205 17.324 8.47205C15.3902 8.47205 14.0976 9.517 13.5644 10.5202C13.5592 10.53 13.549 10.536 13.5379 10.536C13.5214 10.536 13.508 10.5227 13.508 10.5061V9.66005C13.508 9.17624 13.1158 8.78405 12.632 8.78405H10.692C10.1397 8.78405 9.69202 9.23176 9.69202 9.78405V20.6C9.69202 21.1523 10.1397 21.6 10.692 21.6H12.676C13.2283 21.6 13.676 21.1523 13.676 20.6V15.24C13.676 13.56 13.988 11.952 16.052 11.952C18.092 11.952 18.116 13.848 18.116 15.336V20.576C18.116 21.1283 18.5637 21.576 19.116 21.576H22.076C22.0893 21.576 22.1 21.5868 22.1 21.6Z"
+                                                    fill="#595863" />
+                                                <path
+                                                    d="M3.21204 9.78406C3.21204 9.23177 3.65975 8.78406 4.21204 8.78406H6.19604C6.74832 8.78406 7.19604 9.23177 7.19604 9.78406V20.6001C7.19604 21.1523 6.74832 21.6001 6.19604 21.6001H4.21204C3.65975 21.6001 3.21204 21.1523 3.21204 20.6001V9.78406Z"
+                                                    fill="#595863" />
+                                                <path
+                                                    d="M5.20402 2.40002C3.93202 2.40002 2.90002 3.43202 2.90002 4.70402C2.90002 5.97602 3.93202 7.03202 5.20402 7.03202C6.47602 7.03202 7.50802 5.97602 7.50802 4.70402C7.50802 3.43202 6.47602 2.40002 5.20402 2.40002Z"
+                                                    fill="#595863" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <img class="stub" src="./images/slide3/1.png" alt="img">
+                                    <img class="current" src="./images/slide3/1.png"
+                                        srcset="./images/slide3/1@2x.png 2x, ./images/slide3/1.png 1x" alt="img"
+                                        width="440" height="440">
+                                </div>
+                                <div class="item">
+                                    <div class="info">
+                                        <div class="name">RK</div>
+                                        <div class="job">b0rder1ess</div>
+                                        <a href="https://twitter.com/blockchainR_K" class="social-cont" target="_blank"
+                                            rel="noopener">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g opacity="0.3" clip-path="url(#clip0_723_145q)">
+                                                    <path
+                                                        d="M23.894 5.13461C23.7521 4.9038 23.4925 4.77297 23.2222 4.7964L22.0255 4.90065L23.1694 2.59473C23.3056 2.32009 23.2518 1.9892 23.0356 1.77184C22.8193 1.55448 22.4887 1.49907 22.2134 1.63388L19.1859 3.11659C17.3155 2.12912 14.9786 2.42223 13.3706 3.88703C12.0286 5.10953 11.3231 6.98955 11.4547 8.86437C7.94706 8.5128 4.97799 6.5051 3.22234 3.26106C3.10585 3.04585 2.88746 2.90509 2.64338 2.88779C2.39883 2.87078 2.16324 2.97915 2.01765 3.17589C0.928738 4.64692 0.852331 6.66386 1.70597 8.32319C1.47066 8.26375 1.22025 8.18332 0.942566 8.09055C0.704675 8.011 0.442408 8.06196 0.251486 8.22471C0.0605639 8.38746 -0.0312175 8.63829 0.00961074 8.88583C0.347393 10.9337 1.54158 12.5076 3.42802 13.4392C3.1824 13.5247 2.93176 13.5942 2.6769 13.6473C2.42368 13.7001 2.21865 13.8853 2.1406 14.132C2.06255 14.3785 2.12358 14.648 2.3003 14.8369C3.65879 16.289 5.62117 17.0037 7.01505 17.3466C5.4302 18.5877 3.7194 18.7954 1.23343 18.71C0.945659 18.7013 0.680534 18.8634 0.559549 19.1242C0.438612 19.3852 0.485534 19.6931 0.6788 19.9062C1.71511 21.0485 5.49072 22.3365 9.45972 22.4331C9.61671 22.4369 9.77683 22.4389 9.94033 22.4389C12.7271 22.4389 16.4101 21.8415 19.0537 19.1979C21.0547 17.197 22.3063 14.8935 22.7736 12.3516C23.151 10.2986 22.9125 8.65465 22.7978 7.86452C22.7894 7.80644 22.7804 7.7448 22.7731 7.69089L23.8925 5.88667C24.0353 5.65652 24.0359 5.36542 23.894 5.13461Z"
+                                                        fill="white" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_723_145q">
+                                                        <rect width="24" height="24" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <img class="stub" src="./images/slide3/1.png" alt="img">
+                                    <img class="current" src="./images/slide3/6.png"
+                                        srcset="./images/slide3/6@2x.png 2x, ./images/slide3/6.png 1x" alt="img"
+                                        width="440" height="440">
+                                </div>
+                                <div class="item">
+                                    <div class="info">
+                                        <div class="name">DMH</div>
+                                        <div class="job">Research</div>
+                                        <a href="https://twitter.com/defi_made_here" class="social-cont" target="_blank"
+                                            rel="noopener">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g opacity="0.3" clip-path="url(#clip0_723_145q)">
+                                                    <path
+                                                        d="M23.894 5.13461C23.7521 4.9038 23.4925 4.77297 23.2222 4.7964L22.0255 4.90065L23.1694 2.59473C23.3056 2.32009 23.2518 1.9892 23.0356 1.77184C22.8193 1.55448 22.4887 1.49907 22.2134 1.63388L19.1859 3.11659C17.3155 2.12912 14.9786 2.42223 13.3706 3.88703C12.0286 5.10953 11.3231 6.98955 11.4547 8.86437C7.94706 8.5128 4.97799 6.5051 3.22234 3.26106C3.10585 3.04585 2.88746 2.90509 2.64338 2.88779C2.39883 2.87078 2.16324 2.97915 2.01765 3.17589C0.928738 4.64692 0.852331 6.66386 1.70597 8.32319C1.47066 8.26375 1.22025 8.18332 0.942566 8.09055C0.704675 8.011 0.442408 8.06196 0.251486 8.22471C0.0605639 8.38746 -0.0312175 8.63829 0.00961074 8.88583C0.347393 10.9337 1.54158 12.5076 3.42802 13.4392C3.1824 13.5247 2.93176 13.5942 2.6769 13.6473C2.42368 13.7001 2.21865 13.8853 2.1406 14.132C2.06255 14.3785 2.12358 14.648 2.3003 14.8369C3.65879 16.289 5.62117 17.0037 7.01505 17.3466C5.4302 18.5877 3.7194 18.7954 1.23343 18.71C0.945659 18.7013 0.680534 18.8634 0.559549 19.1242C0.438612 19.3852 0.485534 19.6931 0.6788 19.9062C1.71511 21.0485 5.49072 22.3365 9.45972 22.4331C9.61671 22.4369 9.77683 22.4389 9.94033 22.4389C12.7271 22.4389 16.4101 21.8415 19.0537 19.1979C21.0547 17.197 22.3063 14.8935 22.7736 12.3516C23.151 10.2986 22.9125 8.65465 22.7978 7.86452C22.7894 7.80644 22.7804 7.7448 22.7731 7.69089L23.8925 5.88667C24.0353 5.65652 24.0359 5.36542 23.894 5.13461Z"
+                                                        fill="white" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_723_145q">
+                                                        <rect width="24" height="24" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <img class="stub" src="./images/slide3/1.png" alt="img">
+                                    <img class="current" src="./images/slide3/7.png"
+                                        srcset="./images/slide3/7@2x.png 2x, ./images/slide3/7.png 1x" alt="img"
+                                        width="440" height="440">
+                                </div>
+                                <div class="item">
+                                    <div class="info">
+                                        <div class="name">Artem Verovenko</div>
+                                        <div class="job">VC</div>
+                                        <a href="https://uk.linkedin.com/in/artemverovenko" class="social-cont"
+                                            target="_blank" rel="noopener">
+                                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M22.1 21.6V14.568C22.1 11.112 21.356 8.47205 17.324 8.47205C15.3902 8.47205 14.0976 9.517 13.5644 10.5202C13.5592 10.53 13.549 10.536 13.5379 10.536C13.5214 10.536 13.508 10.5227 13.508 10.5061V9.66005C13.508 9.17624 13.1158 8.78405 12.632 8.78405H10.692C10.1397 8.78405 9.69202 9.23176 9.69202 9.78405V20.6C9.69202 21.1523 10.1397 21.6 10.692 21.6H12.676C13.2283 21.6 13.676 21.1523 13.676 20.6V15.24C13.676 13.56 13.988 11.952 16.052 11.952C18.092 11.952 18.116 13.848 18.116 15.336V20.576C18.116 21.1283 18.5637 21.576 19.116 21.576H22.076C22.0893 21.576 22.1 21.5868 22.1 21.6Z"
+                                                    fill="#595863" />
+                                                <path
+                                                    d="M3.21204 9.78406C3.21204 9.23177 3.65975 8.78406 4.21204 8.78406H6.19604C6.74832 8.78406 7.19604 9.23177 7.19604 9.78406V20.6001C7.19604 21.1523 6.74832 21.6001 6.19604 21.6001H4.21204C3.65975 21.6001 3.21204 21.1523 3.21204 20.6001V9.78406Z"
+                                                    fill="#595863" />
+                                                <path
+                                                    d="M5.20402 2.40002C3.93202 2.40002 2.90002 3.43202 2.90002 4.70402C2.90002 5.97602 3.93202 7.03202 5.20402 7.03202C6.47602 7.03202 7.50802 5.97602 7.50802 4.70402C7.50802 3.43202 6.47602 2.40002 5.20402 2.40002Z"
+                                                    fill="#595863" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <img class="stub" src="./images/slide3/1.png" alt="img">
+                                    <img class="current" src="./images/slide3/3.png"
+                                        srcset="./images/slide3/3@2x.png 2x, ./images/slide3/3.png 1x" alt="img"
+                                        width="440" height="440">
+                                </div>
+                                <!--<div class="item">
                         <div class="info">
                             <div class="name">Ivan Vice</div>
                             <div class="job">HFT</div>
@@ -745,28 +762,34 @@
                     </div>-->
 
 
-                    <div class="item">
-                        <div class="info">
-                            <div class="name">Vlad Liu</div>
-                            <div class="job">Contributor</div>
-                            <a href="https://twitter.com/vladislavliu" class="social-cont" target="_blank" rel="noopener">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g opacity="0.3" clip-path="url(#clip0_723_145q)">
-                                        <path d="M23.894 5.13461C23.7521 4.9038 23.4925 4.77297 23.2222 4.7964L22.0255 4.90065L23.1694 2.59473C23.3056 2.32009 23.2518 1.9892 23.0356 1.77184C22.8193 1.55448 22.4887 1.49907 22.2134 1.63388L19.1859 3.11659C17.3155 2.12912 14.9786 2.42223 13.3706 3.88703C12.0286 5.10953 11.3231 6.98955 11.4547 8.86437C7.94706 8.5128 4.97799 6.5051 3.22234 3.26106C3.10585 3.04585 2.88746 2.90509 2.64338 2.88779C2.39883 2.87078 2.16324 2.97915 2.01765 3.17589C0.928738 4.64692 0.852331 6.66386 1.70597 8.32319C1.47066 8.26375 1.22025 8.18332 0.942566 8.09055C0.704675 8.011 0.442408 8.06196 0.251486 8.22471C0.0605639 8.38746 -0.0312175 8.63829 0.00961074 8.88583C0.347393 10.9337 1.54158 12.5076 3.42802 13.4392C3.1824 13.5247 2.93176 13.5942 2.6769 13.6473C2.42368 13.7001 2.21865 13.8853 2.1406 14.132C2.06255 14.3785 2.12358 14.648 2.3003 14.8369C3.65879 16.289 5.62117 17.0037 7.01505 17.3466C5.4302 18.5877 3.7194 18.7954 1.23343 18.71C0.945659 18.7013 0.680534 18.8634 0.559549 19.1242C0.438612 19.3852 0.485534 19.6931 0.6788 19.9062C1.71511 21.0485 5.49072 22.3365 9.45972 22.4331C9.61671 22.4369 9.77683 22.4389 9.94033 22.4389C12.7271 22.4389 16.4101 21.8415 19.0537 19.1979C21.0547 17.197 22.3063 14.8935 22.7736 12.3516C23.151 10.2986 22.9125 8.65465 22.7978 7.86452C22.7894 7.80644 22.7804 7.7448 22.7731 7.69089L23.8925 5.88667C24.0353 5.65652 24.0359 5.36542 23.894 5.13461Z" fill="white"/>
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_723_145q">
-                                            <rect width="24" height="24" fill="white"/>
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                            </a>
-                        </div>
-                        <img class="stub" src="./images/slide3/1.png" alt="img">
-                        <img class="current" src="./images/slide3/5.png" srcset="./images/slide3/5@2x.png 2x, ./images/slide3/5.png 1x" alt="img" width="440" height="440">
-                    </div>
+                                <div class="item">
+                                    <div class="info">
+                                        <div class="name">Vlad Liu</div>
+                                        <div class="job">Contributor</div>
+                                        <a href="https://twitter.com/vladislavliu" class="social-cont" target="_blank"
+                                            rel="noopener">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g opacity="0.3" clip-path="url(#clip0_723_145q)">
+                                                    <path
+                                                        d="M23.894 5.13461C23.7521 4.9038 23.4925 4.77297 23.2222 4.7964L22.0255 4.90065L23.1694 2.59473C23.3056 2.32009 23.2518 1.9892 23.0356 1.77184C22.8193 1.55448 22.4887 1.49907 22.2134 1.63388L19.1859 3.11659C17.3155 2.12912 14.9786 2.42223 13.3706 3.88703C12.0286 5.10953 11.3231 6.98955 11.4547 8.86437C7.94706 8.5128 4.97799 6.5051 3.22234 3.26106C3.10585 3.04585 2.88746 2.90509 2.64338 2.88779C2.39883 2.87078 2.16324 2.97915 2.01765 3.17589C0.928738 4.64692 0.852331 6.66386 1.70597 8.32319C1.47066 8.26375 1.22025 8.18332 0.942566 8.09055C0.704675 8.011 0.442408 8.06196 0.251486 8.22471C0.0605639 8.38746 -0.0312175 8.63829 0.00961074 8.88583C0.347393 10.9337 1.54158 12.5076 3.42802 13.4392C3.1824 13.5247 2.93176 13.5942 2.6769 13.6473C2.42368 13.7001 2.21865 13.8853 2.1406 14.132C2.06255 14.3785 2.12358 14.648 2.3003 14.8369C3.65879 16.289 5.62117 17.0037 7.01505 17.3466C5.4302 18.5877 3.7194 18.7954 1.23343 18.71C0.945659 18.7013 0.680534 18.8634 0.559549 19.1242C0.438612 19.3852 0.485534 19.6931 0.6788 19.9062C1.71511 21.0485 5.49072 22.3365 9.45972 22.4331C9.61671 22.4369 9.77683 22.4389 9.94033 22.4389C12.7271 22.4389 16.4101 21.8415 19.0537 19.1979C21.0547 17.197 22.3063 14.8935 22.7736 12.3516C23.151 10.2986 22.9125 8.65465 22.7978 7.86452C22.7894 7.80644 22.7804 7.7448 22.7731 7.69089L23.8925 5.88667C24.0353 5.65652 24.0359 5.36542 23.894 5.13461Z"
+                                                        fill="white" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_723_145q">
+                                                        <rect width="24" height="24" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <img class="stub" src="./images/slide3/1.png" alt="img">
+                                    <img class="current" src="./images/slide3/5.png"
+                                        srcset="./images/slide3/5@2x.png 2x, ./images/slide3/5.png 1x" alt="img"
+                                        width="440" height="440">
+                                </div>
 
-                    <!--
+                                <!--
 
                     <div class="item">
                         <div class="info">
@@ -828,46 +851,49 @@
                         <img class="stub" src="./images/slide3/1.png" alt="img">
                         <img class="current" src="./images/slide3/5.png" srcset="./images/slide3/5@2x.png 2x, ./images/slide3/5.png 1x" alt="img" width="440" height="440">
                     </div>-->
-                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="wrapper-main">
+                            <div class="block">
+                                <div class="title">
+                                    Follow us
+                                </div>
+                                <div class="social">
+                                    <a href="mailto:info@ax1.vc"><img src="./images/social/email.svg"
+                                            alt="img">info@ax1.vc</a>
+                                    <a href="https://t.me/ax1syndicate"><img src="./images/social/tg.svg"
+                                            alt="img">@ax1syndicate</a>
+                                    <a href="https://twitter.com/ax1vc"><img src="./images/social/tw.svg"
+                                            alt="img">@ax1vc</a>
+                                </div>
+                                <div class="right">
+                                    <a href="http://ax1.vc" target="_blank">ax1.vc</a>
+                                    <div>2022-2024</div>
+                                </div>
+                            </div>
+                            <div class="info-bottom">
+                                <p>
+                                    AX1 Research © Copyright 2024. All&nbsp;rights reserved.
+                                </p>
+                                <p class="info-bottom__right">
+                                    <a href="/privacy">Privacy Policy</a>
+                                    <a href="/terms">Terms of Use</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
-        <div class="bottom">
-            <div class="wrapper-main">
-                <div class="block">
-                    <div class="title">
-                        Follow us
-                    </div>
-                    <div class="social">
-                        <a href="mailto:info@ax1.vc"><img src="./images/social/email.svg" alt="img">info@ax1.vc</a>
-                        <a href="https://t.me/ax1syndicate"><img src="./images/social/tg.svg" alt="img">@ax1syndicate</a>
-                        <a href="https://twitter.com/ax1vc"><img src="./images/social/tw.svg" alt="img">@ax1vc</a>
-                    </div>
-                    <div class="right">
-                        <a href="http://ax1.vc" target="_blank">ax1.vc</a>
-                        <div>2022-2024</div>
-                    </div>
-                </div>
-                <div class="info-bottom">
-                    <p>
-                        AX1 Research © Copyright 2024. All&nbsp;rights reserved.
-                    </p>
-                    <p class="info-bottom__right">
-                        <a href="/privacy">Privacy Policy</a>
-                        <a href="/terms">Terms of Use</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    </div>
-</div>
-<footer class="footer-wg">
-    footer
-</footer>
+        <footer class="footer-wg">
+            footer
+        </footer>
 
-</div>
-<div class="circle"></div>
-<script src="https://cdn.ilo.so/embed.js" async></script>
+    </div>
+    <div class="circle"></div>
+    <script src="https://cdn.ilo.so/embed.js" async></script>
 
     <script src="./js/intersection-observer.js"></script>
     <script src="./js/jquery.js"></script>
@@ -877,11 +903,11 @@
     <script src="./plugins/fullpage/jquery.fullPage.min.js"></script>
     <script src="./plugins/owl/owl.carousel.min.js"></script>
     <script src="./js/main-page.js"></script>
-    <script src="./js/liquid.js" ></script>
+    <script src="./js/liquid.js"></script>
     <script src="./js/webgl-fluid.umd.js"></script>
     <script type="text/javascript">
 
-        if(document.documentElement.clientWidth >= 0) {
+        if (document.documentElement.clientWidth >= 0) {
             window['webgl-fluid'](document.querySelector('.fluid canvas'), {
                 // options
                 DENSITY_DISSIPATION: 2.4,
@@ -900,4 +926,5 @@
         }
     </script>
 </body>
+
 </html>
